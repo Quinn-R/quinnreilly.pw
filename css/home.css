@@ -1,8 +1,11 @@
 body 
 {
+    max-width: 100vw;
+    
+    /*overflow: hidden;*/
+    
     margin: 0px;
     padding: 0px;
-    
     margin-bottom: 10px;
 }
 
@@ -14,21 +17,20 @@ h1
 }
 */
 
-p 
+/*p 
 {
     /*font-family: verdana;
     font-size: 20px;*/
     
-    margin: 5px;
-    padding: 5px;
-}
-
+    /*margin: 5px;
+    
+}*/
 
 #banner
 {
     background-color: #3ee044;
     
-    width: 100vw;
+    max-width: 100vw;
     /*height: 500px;*/
     
     margin: 0px;
@@ -68,8 +70,8 @@ p
     
     float: right;
     
-    margin: 0px;
-    padding: 0px;
+    /*margin: 0px;
+    padding: 0px;*/
 }
 
 #mainMenu
@@ -99,6 +101,7 @@ p
 #bannerImage
 {
     width: 100vw;
+    height: auto;
     
     display: block;
     
@@ -110,7 +113,7 @@ p
 {
     /*background-color: #3ee044;*/
     
-    width: 100vw;
+    max-width: 100vw;
     /*height: 500px;*/
     
     margin: 0px;
@@ -130,7 +133,7 @@ p
     margin: auto;
     padding: 0px;
     
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 #articleImage
@@ -160,6 +163,14 @@ p
     
     margin: 0px;
     padding: 0px;
+}
+
+#artText
+{
+    font-family: "Lucida Console", Lucida, Monospace;
+    font-size: 15px;
+    
+    padding: 10px;
 }
 
 #articleFooter
