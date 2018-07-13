@@ -17,14 +17,14 @@ h1
 }
 */
 
-/*p 
+p 
 {
-    /*font-family: verdana;
-    font-size: 20px;*/
+    font-family: "Lucida Console", Lucida, Monospace;
+    font-size: 15px;
     
-    /*margin: 5px;
+    /*margin: 5px;*/
     
-}*/
+}
 
 #banner
 {
@@ -131,7 +131,7 @@ h1
     border-top: 1px solid white;
 }
 
-#menuItem5
+#menuItem6
 {
     border-bottom: 1px solid white;
 }
