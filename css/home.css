@@ -57,44 +57,42 @@ p
     background-color: #3ee044;
     
     width: 100vw;
-    height: 6vh;
+    height: 50px;
     
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
     
     margin: 0px;
     padding: 0px;
+    padding-left: 10px;
 }
 
 #discord
 {
-    width: 4vh;
-    height: 4vh;
+    width: 45px;
+    height: 45px;
     
-    margin-top: 1vh;
-    margin-bottom: 1vh;
+    margin-top: 2.5px;
 }
 
 #reddit
 {
-    width: 4vh;
-    height: 4vh;
+    width: 45px;
+    height: 45px;
     
-    margin-top: 1vh;
-    margin-bottom: 1vh;
+    margin-top: 2.5px;
 }
 
 #menuImg
 {
-    width: 4vh;
-    height: 4vh;
+    width: 45px;
+    height: 45px;
     
     display: block;
     
     float: right;
     
-    margin: auto;
-    margin-top: 1vh;
-    margin-right: 20px;
+    margin-top: 2.5px;
+    margin-right: 30px;
     /*padding: 0px;*/
 }
 
@@ -103,7 +101,6 @@ p
     background-color: #3ee044;
     
     width: 100vw;
-    height: 45vh;
     
     display: none;
     
@@ -115,7 +112,6 @@ p
 {
     width: 60vw;
     max-width: 500px;
-    height: 45vh;
     
     margin: auto;
     margin-top: 20px;
@@ -153,7 +149,7 @@ p
     margin: 0px;
     padding: 0px;
     
-    padding-top: 6vh;
+    padding-top: 50px;
 }
 
 #bannerImage
@@ -216,16 +212,19 @@ p
 {
     /*background-color: #3ee044;*/
     
-    width: 100%;
+    width: 95%;
+    max-height: 600px;
     /*height: 500px;*/
     
-    margin: 0px;
-    padding: 0px;
+    overflow: hidden;
+    
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 #artText
 {
-    padding: 10px;
+    padding: 20px;
 }
 
 #articleFooter

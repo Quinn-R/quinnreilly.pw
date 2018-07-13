@@ -1,14 +1,26 @@
 var isOpen = 0;
+var viewPortWidth = 0;
+var viewPortHeight = 0;
 
-/*
-var closeSize = 0;
-var openSize = 100;
-var closeOpacity = 0;
-var openOpacity = 1;
-
-var menuItemOpenSize = 50;
-var menuItemCloseSize = 0;
-*/
+window.onload = function()
+{
+    viewPortWidth = window.innerWidth;
+    viewPortHeight = window.innerHeight;
+    
+    if(viewPortWidth <= 800)
+    {
+        document.getElementById("menuBar").style.height = "75px";
+        
+        document.getElementById("discord").style.width = "70px";
+        document.getElementById("discord").style.height = "70px";
+        document.getElementById("reddit").style.width = "70px";
+        document.getElementById("reddit").style.height = "70px";
+        document.getElementById("menuImg").style.width = "70px";
+        document.getElementById("menuImg").style.height = "70px";
+        
+        document.body.style.fontSize = "25px";
+    }
+}
 
 function menuClick()
 {    
@@ -26,38 +38,10 @@ function menuClick()
 
 function openMenu()
 {
-    /*
-    var openSizeFinal = openSize + "vh";
-    var menuItemOpenSizeFinal = menuItemOpenSize + "px";
-    
-    document.getElementById("mainMenu").style.height = openSizeFinal;
-    */
-    
-    document.getElementById("mainMenu").style.display = "block";
-    
-    /*
-    document.getElementById("menuItem1").style.height = menuItemOpenSizeFinal;
-    document.getElementById("menuItem2").style.height = menuItemOpenSizeFinal;
-    document.getElementById("menuItem3").style.height = menuItemOpenSizeFinal;
-    document.getElementById("menuItem4").style.height = menuItemOpenSizeFinal;
-    */
+document.getElementById("mainMenu").style.display = "block";
 }
 
 function closeMenu()
 {
-    /*
-    var closeSizeFinal = closeSize + "vh";
-    var menuItemCloseSizeFinal = menuItemCloseSize + "px";
-    
-    document.getElementById("mainMenu").style.height = closeSizeFinal;
-    */
-    
     document.getElementById("mainMenu").style.display = "none";
-    
-    /*
-    document.getElementById("menuItem1").style.height = menuItemCloseSizeFinal;
-    document.getElementById("menuItem2").style.height = menuItemCloseSizeFinal;
-    document.getElementById("menuItem3").style.height = menuItemCloseSizeFinal;
-    document.getElementById("menuItem4").style.height = menuItemCloseSizeFinal;
-    */
 }
