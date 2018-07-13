@@ -57,7 +57,7 @@ p
     background-color: #3ee044;
     
     width: 100vw;
-    height: 50px;
+    height: 6vh;
     
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
     
@@ -67,33 +67,33 @@ p
 
 #discord
 {
-    width: 45px;
-    height: 45px;
+    width: 4vh;
+    height: 4vh;
     
-    margin-top: 2.5px;
-    margin-bottom: 2.5px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 
 #reddit
 {
-    width: 45px;
-    height: 45px;
+    width: 4vh;
+    height: 4vh;
     
-    margin-top: 2.5px;
-    margin-bottom: 2.5px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 
 #menuImg
 {
-    width: 45px;
-    height: 45px;
+    width: 4vh;
+    height: 4vh;
     
     display: block;
     
     float: right;
     
     margin: auto;
-    margin-top: 2.5px;
+    margin-top: 1vh;
     margin-right: 20px;
     /*padding: 0px;*/
 }
@@ -103,7 +103,7 @@ p
     background-color: #3ee044;
     
     width: 100vw;
-    /*height: 100vw;*/
+    height: 45vh;
     
     display: none;
     
@@ -115,7 +115,7 @@ p
 {
     width: 60vw;
     max-width: 500px;
-    /*height: 50px;*/
+    height: 45vh;
     
     margin: auto;
     margin-top: 20px;
@@ -153,7 +153,7 @@ p
     margin: 0px;
     padding: 0px;
     
-    padding-top: 50px;
+    padding-top: 6vh;
 }
 
 #bannerImage
