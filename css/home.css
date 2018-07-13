@@ -6,7 +6,7 @@ body
     
     margin: 0px;
     padding: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 /*
@@ -63,15 +63,17 @@ h1
 
 #menuImg
 {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     
     display: block;
     
     float: right;
     
-    /*margin: 0px;
-    padding: 0px;*/
+    margin: auto;
+    margin-top: 2.5px;
+    margin-right: 20px;
+    /*padding: 0px;*/
 }
 
 #mainMenu
@@ -85,11 +87,24 @@ h1
     padding: 0px;
 }
 
+.menuItem
+{
+    width: 400px;
+    height: 60px;
+    
+    border-top: 1px solid white;
+}
+
+#menuItem4
+{
+    border-bottom: 1px solid white;
+}
+
 #innerBanner
 {
     background-color: #3ee044;
     
-    width: 100vw;
+    width: 100%; /*CHANGED THIS TO 100%*/
     /*height: 50px;*/
     
     margin: 0px;
@@ -100,7 +115,7 @@ h1
 
 #bannerImage
 {
-    width: 100vw;
+    width: 100%; /*CHANGED THIS TO 100%*/
     height: auto;
     
     display: block;
