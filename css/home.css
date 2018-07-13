@@ -20,7 +20,7 @@ h1
 p 
 {
     font-family: "Lucida Console", Lucida, Monospace;
-    font-size: 15px;
+    font-size: 100%;
     
     /*margin: 5px;*/
     
@@ -225,9 +225,6 @@ p
 
 #artText
 {
-    font-family: "Lucida Console", Lucida, Monospace;
-    font-size: 15px;
-    
     padding: 10px;
 }
 
