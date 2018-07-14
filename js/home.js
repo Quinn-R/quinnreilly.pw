@@ -2,6 +2,7 @@ var isOpen = 0;
 var viewPortWidth = 0;
 var viewPortHeight = 0;
 
+/*
 window.onload = function()
 {
     viewPortWidth = window.innerWidth;
@@ -21,6 +22,7 @@ window.onload = function()
         document.body.style.fontSize = "25px";
     }
 }
+*/
 
 function menuClick()
 {    

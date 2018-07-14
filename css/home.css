@@ -20,7 +20,7 @@ h1
 p 
 {
     font-family: "Lucida Console", Lucida, Monospace;
-    font-size: 100%;
+    /*font-size: 1vw;*/
     
     /*margin: 5px;*/
     
@@ -132,7 +132,7 @@ p
     border-bottom: 1px solid white;
 }
 
-#menuItemText
+.whiteTextMenu
 {
     color: white;
     
@@ -224,6 +224,8 @@ p
 
 #artText
 {
+    text-align: justify;
+    
     padding: 20px;
 }
 
@@ -236,4 +238,47 @@ p
     
     margin: 0px;
     padding: 0px;
+}
+
+#comments
+{
+    max-height: 50px;
+    
+    display: block;
+    
+    margin-left: 2.5px;
+}
+
+.whiteTextFooter
+{
+    color: black;
+}
+
+#commentsImg
+{
+    width: 45px;
+    height: 45px;
+    
+    margin: auto;
+    margin-top: 2.5px;
+}
+
+#readmore
+{
+    max-height: 50px;
+    
+    float: right;
+    
+    display: block;
+    
+    margin-right: 2.5px;
+}
+
+#readmoreImg
+{
+    width: 25px;
+    height: 25px;
+    
+    margin: auto;
+    margin-top: 2.5px;
 }
