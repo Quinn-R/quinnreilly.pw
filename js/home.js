@@ -9,16 +9,16 @@ window.onload = function()
     
     if(viewPortWidth <= 800)
     {
-        document.getElementById("menuBar").style.height = "200px";
+        document.getElementById("menuBar").style.height = "75px";
         
-        document.getElementById("discord").style.width = "195px";
-        document.getElementById("discord").style.height = "195px";
-        document.getElementById("reddit").style.width = "195px";
-        document.getElementById("reddit").style.height = "195px";
-        document.getElementById("menuImg").style.width = "195px";
-        document.getElementById("menuImg").style.height = "195px";
+        document.getElementById("discord").style.width = "70px";
+        document.getElementById("discord").style.height = "70px";
+        document.getElementById("reddit").style.width = "70px";
+        document.getElementById("reddit").style.height = "70px";
+        document.getElementById("menuImg").style.width = "70px";
+        document.getElementById("menuImg").style.height = "70px";
         
-        document.body.style.fontSize = "45px";
+        document.body.style.fontSize = "25px";
     }
 }
 
