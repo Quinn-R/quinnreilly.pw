@@ -140,9 +140,9 @@ p
 {
     color: white;
     
-    max-height: 12vh;
+    max-height: 12vh
     
-    margin-bottom: 1px;
+    margin-bottom: 30px;
     
     text-align: center;
     vertical-align: middle;
@@ -290,6 +290,10 @@ p
 
 #comments
 {
+    background-color: blue;
+    
+    max-width: 50%;
+    
     max-height: 50px;
     
     margin-left: 2.5px;
@@ -325,9 +329,12 @@ p
 
 #readmore
 {
+    background-color: orange;
+    
     max-height: 50px;
+    max-width: 50%;
     
     float: right;
     
-    margin-right: 2.5px;
+    margin-right: 5px;
 }
