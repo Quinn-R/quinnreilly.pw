@@ -26,6 +26,11 @@ p
     
 }
 
+a
+{
+    text-decoration: none;
+}
+
 #banner
 {    
     max-width: 100vw;
@@ -36,7 +41,9 @@ p
 }
 
 #menu
-{    
+{
+    background-color: #3ee044;
+    
     width: 100vw;
     /*height: 500px;*/
     
@@ -144,10 +151,28 @@ p
     vertical-align: middle;
 }
 
+.menuItem:hover
+{
+    background-color: white;
+    
+    /*border-top: 1px solid black;*/
+}
+
+#menuItem6:hover
+{
+    /*border-bottom: 1px solid black;*/
+}
+
+.menuItem:hover .whiteTextMenu
+{
+    color: black;
+}
+
 @media only screen and (max-height: 300px) {
     .menuItem
     {
         width: 25vw;
+        max-width: 45%;
     }
     #menuItem1
     {
