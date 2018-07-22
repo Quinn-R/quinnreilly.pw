@@ -147,7 +147,8 @@ a
     vertical-align: middle;
 }
 
-@media only screen and (max-height: 300px) {
+@media only screen and (max-height: 300px)
+{
     .menuItem
     {
         width: 25vw;
@@ -162,11 +163,15 @@ a
     {
         float: right;
         z-index: -1;
+        
+        border-bottom: 1px solid white;
     }
     #menuItem3
     {
         float: left;
         z-index: 1;
+        
+        margin-bottom: 10px;
     }
 }
 
