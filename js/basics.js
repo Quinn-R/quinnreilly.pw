@@ -36,25 +36,3 @@ function closeMenu()
     isMenuOpen = 0;
     document.getElementById("mainMenu").style.display = "none";
 }
-
-/*
-*
-*/
-
-function homeClick()
-{
-    document.getElementById("mainMenu").style.display = "none";
-    document.getElementById("homepage").style.display = "block";
-    document.getElementById("storiespage").style.display = "none";
-    
-    homeUrl()
-}
-
-function storiesClick()
-{
-    document.getElementById("mainMenu").style.display = "none";
-    document.getElementById("homepage").style.display = "none";
-    document.getElementById("storiespage").style.display = "block";
-    
-    storiesUrl()
-}

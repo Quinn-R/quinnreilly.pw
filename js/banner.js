@@ -11,20 +11,11 @@ document.write(
     '            <div id="menuItem1" class="menuItem" onClick="homeClick()">'+
     '                <p id="menuItemText1" class="whiteTextMenu">Home</p>'+
     '            </div>'+
-    '            <div id="menuItem2" class="menuItem" onClick="storiesClick()">'+
-    '                <p id="menuItemText2" class="whiteTextMenu">Stories</p>'+
+    '            <div id="menuItem2" class="menuItem" onClick="mediaClick()">'+
+    '                <p id="menuItemText2" class="whiteTextMenu">Media</p>'+
     '            </div>'+
-    '            <div id="menuItem3" class="menuItem">'+
-    '                <p id="menuItemText3" class="whiteTextMenu">Videos</p>'+
-    '            </div>'+
-    '            <div id="menuItem4" class="menuItem">'+
-    '                <p id="menuItemText4" class="whiteTextMenu">Projects</p>'+
-    '            </div>'+
-    '            <div id="menuItem5" class="menuItem">'+
-    '                <p id="menuItemText5" class="whiteTextMenu">Index</p>'+
-    '            </div>'+
-    '            <div id="menuItem6" class="menuItem" onClick="linkClick("menuItem4")">'+
-    '                <p id="menuItemText6" class="whiteTextMenu">Contact</p>'+
+    '            <div id="menuItem3" class="menuItem" onClick="contactClick()">'+
+    '                <p id="menuItemText3" class="whiteTextMenu">Contact</p>'+
     '            </div>'+
     '        </div>'+
     '    </div>'+
@@ -34,3 +25,18 @@ document.write(
     '</div>'+
 '</div>'
 );
+
+function homeClick()
+{
+    location.href = "index.html";
+}
+
+function mediaClick()
+{
+    location.href = "media.html";
+}
+
+function contactClick()
+{
+    location.href = "contact.html";
+}
