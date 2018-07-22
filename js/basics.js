@@ -15,23 +15,25 @@ function menuClick()
 {    
     if(isMenuOpen == 0)
     {
-        isMenuOpen = 1;
-        openMenu()
+        
+        openMenu();
     }
     else if(isMenuOpen == 1)
     {
-        isMenuOpen = 0;
-        closeMenu()
+        
+        closeMenu();
     }
 }
 
 function openMenu()
 {
+    isMenuOpen = 1;
     document.getElementById("mainMenu").style.display = "block";
 }
 
 function closeMenu()
 {
+    isMenuOpen = 0;
     document.getElementById("mainMenu").style.display = "none";
 }
 

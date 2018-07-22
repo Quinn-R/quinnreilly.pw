@@ -16,7 +16,9 @@
 #greetings
 {
     width: 60vw;
-    max-width: 600px;
+    max-width: 700px;
+    min-width: 500px;
+    width: 80vw;
     
     /*border: solid 2px black;*/
     
