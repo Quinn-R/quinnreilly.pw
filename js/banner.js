@@ -26,6 +26,40 @@ document.write(
 '</div>'
 );
 
+var isMenuOpen = 0;
+
+var viewPortWidth = 0;
+var viewPortHeight = 0;
+
+var currentPage;
+
+function menuClick()
+{    
+    if(isMenuOpen == 0)
+    {
+        
+        openMenu();
+    }
+    else if(isMenuOpen == 1)
+    {
+        
+        closeMenu();
+    }
+}
+
+function openMenu()
+{
+    isMenuOpen = 1;
+    document.getElementById("mainMenu").style.display = "block";
+}
+
+function closeMenu()
+{
+    isMenuOpen = 0;
+    document.getElementById("mainMenu").style.display = "none";
+}
+
+
 function homeClick()
 {
     location.href = "index.html";

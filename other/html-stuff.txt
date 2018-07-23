@@ -38,3 +38,20 @@
             </div>
             
         </div>
+
+
+<div id="articleImage">
+                    
+                    <img id="articleImg" src="media/articles/testDoc/img1.jpeg" alt="article image">
+                    
+                </div>
+
+
+
+#articleImg
+{
+    width: 100%;
+    
+    display: block;
+}
+
