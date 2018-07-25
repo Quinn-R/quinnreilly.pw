@@ -2,32 +2,40 @@ document.write
 (
     '<div class="articleBody">'+
     '    <div class="articleText">'+
-    '        <embed class="embeddedHtml">'+
+    '        <embed id="embeddedHtml">'+
     '    </div>'+
     '    <div class="articleFooter">'+
     '        <div class="comments">'+
     '            <img class="commentsImg" src="img/icons/reddit.png" alt="reddit comments">'+
     '            <p id="commentsText" class="whiteTextFooter">Comments</p>'+
     '        </div>'+
-    '        <a href="media/articles/testDoc/testDoc.html"><div class="fullscreen">'+
-    '            <p id="fullscreenText" class="whiteTextFooter">Full Screen</p>'+
+    '        <a id="fullArticleLink" href="whoops.html"><div class="fullArticle">'+
+    '            <p id="fullArticleText" class="whiteTextFooter">Full Article</p>'+
     '        </div></a>'+
     '    </div>'+
     '</div>'
 );
 
-window.onload = function chooseMedia()
+function chooseMedia()
 {
     var articleParent;
     var articleLocation;
     
-    articleParent = document.getElementById("articleBody").parentElement;
+    articleParent = document.getElementById("articleDiv").parentElement.id;
     
-    alert("4");
+    //alert(articleParent);
     
-    alert(articleParent);
+    articleLocation = "media/" + articleParent;
     
-    articleLocation = "media/" + articleParent.parentNode;
+    //alert(articleLocation);
     
-    document.getElementById("embeddedHtml").src = articleLocation; 
+    return articleLocation;
+}
+
+function setMedia()
+{
+    var articleLocation = chooseMedia();
+    
+    document.getElementById("embeddedHtml").src = articleLocation;
+    document.getElementById("fullArticleLink").href = articleLocation;
 }
